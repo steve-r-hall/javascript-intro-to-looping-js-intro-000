@@ -3,7 +3,7 @@ function forLoop(array) {
   for (let i=0; i<25; i++) {
     if (i === 0) {lit1 = "I am 1 strange loop."}
     else {lit1 = "I am " + i + " strange loops." } ;
-    array.unshift(lit1) ;
+    array.push(lit1) ;
   }
   return array
 }
